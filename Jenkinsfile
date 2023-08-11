@@ -8,7 +8,7 @@ pipeline {
 
     environment {
         DO_TOKEN     = credentials('do_token')
-        PVT_KEY     = credentials('pvt_key') 
+        PVT_KEY     = credentials('private_key') 
         
     }
 
